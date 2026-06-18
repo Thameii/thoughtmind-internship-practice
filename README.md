@@ -18,9 +18,6 @@ Mentor Engineering College
 - Python
 - C
 - Java (Basics)
-- HTML
-- C++
-- JavaScript (Basics)
 
 ## Technologies Known
 - Git & GitHub
@@ -31,7 +28,6 @@ Mentor Engineering College
 - SOS emmergency system
 
 ## Tech Stack Used in Projects
-- HTML
 - CSS
 - JavaScript
 - Python
