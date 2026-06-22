@@ -1,0 +1,283 @@
+*{
+ box-sizing:border-box;
+ scroll-behavior:smooth;
+}
+
+
+body{
+
+ margin:0;
+ font-family:"Segoe UI",Arial;
+ background:#050816;
+ color:white;
+
+}
+
+
+
+.portfolio{
+
+ padding:30px 8%;
+
+}
+
+
+
+/* Navbar */
+
+nav{
+
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+
+}
+
+
+nav h2{
+
+ font-size:30px;
+ color:#00eaff;
+
+}
+
+
+nav a{
+
+ color:white;
+ text-decoration:none;
+ margin-left:25px;
+
+}
+
+
+
+/* Hero */
+
+
+.hero{
+
+ min-height:70vh;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:40px;
+
+}
+
+
+.hero-text{
+
+ max-width:600px;
+
+}
+
+
+.hero h1{
+
+ font-size:45px;
+
+}
+
+
+.hero span{
+
+ color:#00eaff;
+
+}
+
+
+.hero h2{
+
+ color:#aaa;
+
+}
+
+
+.hero p{
+
+ font-size:20px;
+ line-height:1.7;
+
+}
+
+
+button{
+
+ padding:14px 30px;
+ border:none;
+ border-radius:30px;
+ background:#00eaff;
+ font-size:16px;
+ cursor:pointer;
+ margin:10px;
+
+}
+
+
+.outline{
+
+ background:transparent;
+ border:2px solid #00eaff;
+ color:white;
+
+}
+
+
+
+/* Profile */
+
+
+.profile div{
+
+ width:260px;
+ height:260px;
+ border-radius:50%;
+ background:linear-gradient(
+ 135deg,#00eaff,#7b2cff);
+
+ display:flex;
+ justify-content:center;
+ align-items:center;
+
+ font-size:80px;
+ font-weight:bold;
+
+ box-shadow:0 0 50px #00eaff;
+
+}
+
+
+
+/* Sections */
+
+
+section{
+
+ margin:80px 0;
+
+}
+
+
+h1{
+
+ font-size:40px;
+
+}
+
+
+
+/* Card */
+
+
+.card,
+.project{
+
+ background:#101828;
+ padding:30px;
+ border-radius:20px;
+
+ box-shadow:0 10px 30px #0005;
+
+}
+
+
+.card p{
+
+ line-height:1.8;
+ color:#ccc;
+
+}
+
+
+
+/* Skills */
+
+
+.skills{
+
+ display:flex;
+ flex-wrap:wrap;
+ gap:20px;
+
+}
+
+
+.skills div{
+
+ background:#101828;
+ padding:20px 35px;
+ border-radius:20px;
+
+}
+
+
+
+/* Projects */
+
+
+.projects{
+
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+ gap:25px;
+
+}
+
+
+
+.project:hover{
+
+ transform:translateY(-10px);
+ transition:.3s;
+
+}
+
+
+
+/* Contact */
+
+
+.contact{
+
+ text-align:center;
+
+}
+
+
+
+
+@media(max-width:800px){
+
+
+.hero{
+
+ flex-direction:column;
+ text-align:center;
+
+}
+
+
+nav{
+
+ flex-direction:column;
+
+}
+
+
+.hero h1{
+
+ font-size:38px;
+
+}
+
+
+.profile div{
+
+ width:180px;
+ height:180px;
+
+}
+
+
+}
